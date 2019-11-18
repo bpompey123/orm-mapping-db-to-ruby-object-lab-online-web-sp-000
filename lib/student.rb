@@ -60,7 +60,7 @@ class Student
     sql = <<-SQL
       SELECT *
       FROM students
-      WHERE name = ?
+      WHERE grade = ?
       LIMIT #{amount}
     SQL
 
